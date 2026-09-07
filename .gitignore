@@ -1,0 +1,41 @@
+# --- Unity Standard ---
+/[Ll]ibrary/
+/[Tt]emp/
+/[Obj]/
+/[Build]/
+/[Builds]/
+/[Logs]/
+/[UserSettings]/
+MemoryCaptures/
+Recording/
+
+# --- VRChat Creator Companion / VPM Specific ---
+# DO NOT track the local copy of the packages. VCC will re-download them automatically.
+/Packages/*
+!/Packages/manifest.json
+!/Packages/packages-lock.json
+
+# If you create your own local custom packages inside the Packages folder, 
+# uncomment the line below to allow tracking your custom package folder:
+# !/Packages/com.yourname.custompackage/
+
+# --- Gradle / Android (For Quest builds) ---
+.gradle/
+/Assets/Plugins/Android/assets/
+
+# --- Asset Store Packages ---
+# It's recommended to ignore downloaded asset store plugins to keep the repo clean
+# /Assets/AssetStoreTools*
+
+# --- IDEs and System Files ---
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+.DS_Store
+Thumbs.db
